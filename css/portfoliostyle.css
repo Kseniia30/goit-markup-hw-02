@@ -1,0 +1,42 @@
+.root {
+
+}
+body {
+    font-family: 'roboto' sans-serif, 'Raleway' sans-serif;
+    color: #212121;
+    max-width: 1600px;
+}
+.button-item {
+    color: F5F4FA;
+}
+.main-content {
+    width: 1360px;
+    text-align: center;
+}
+.main-content-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.projects-head {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+.projects-text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.project {
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects-content {
+    margin-left: 30px;
+    margin-top: 30px;
+}

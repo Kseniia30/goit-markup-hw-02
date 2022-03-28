@@ -1,0 +1,135 @@
+.root {
+
+}
+body {
+    font-family: 'roboto' sans-serif, 'Raleway' sans-serif;
+    color: #212121;
+    max-width: 1600px;
+}
+ul{list-style: none;}
+
+.head {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.decision {
+    background-color: #2F303A;
+    text-align: center;
+    height: 600px;
+}
+.decision-head {
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    padding-top: 200px;
+}
+button {
+    margin-top: 30px;
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.plus {
+    display: flex;
+    flex-direction: row;
+    margin-left: 215px;
+}
+.plus_head {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.plus_text  {
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.plus-list {margin-right: 30px;
+    width: 270px;
+    text-align: left;
+}
+.our_job {
+    text-align: center;
+}
+.job-head {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 215px;
+}
+.img123 {
+    margin-right: 30px;
+    text-align: center;
+}
+.specialists-section {
+    background-color: #F5F4FA;
+    text-align: center;
+    height: 648px;
+}
+.specialists-head {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    ont-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+.specialists {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 215px;
+}
+.specialists-list {
+    margin-right: 30px;
+    background-color: #fff;
+    height: 368px;
+}
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    margin-top: 30px; 
+    margin-bottom: 10px;
+}
+.profession {
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+footer {
+    background-color: #2F303A;
+}
