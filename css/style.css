@@ -12,6 +12,47 @@ ul{list-style: none;}
     background-color: #fff;
     display: flex;
     flex-direction: row;
+    height: 80px;
+    padding-top: 24px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 453px;
+    margin-top: 0;
+}
+.menu-list {
+    margin-right: 50px;
+}
+.menu-list1 {
+    color: #2196F3;
+}
+.studio {
+    color: #2196F3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.portfolio, .kontact-in-header {color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.span1 {color: #000000;}
+.headcontacts {
+    display: flex;
+    flex-direction: row;
+}
+.headmail {
+    color: #2196F3;
+    margin-right: 50px;
+}
+.headtel {
+    color: #757575;
 }
 .decision {
     background-color: #2F303A;
@@ -26,6 +67,8 @@ ul{list-style: none;}
     font-size: 44px;
     line-height: 60px;
     padding-top: 200px;
+    width: 696px;
+    margin-left: 452px;
 }
 button {
     margin-top: 30px;
@@ -132,4 +175,36 @@ button {
 }
 footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    height: 252px;
+}
+.contacts {
+    padding:0;
+    margin:0;
+    margin-left: 215px;
+    margin-top: 20px;
+}
+.address {
+    color: #fff;
+    margin-bottom: 0;
+
+}
+.mail, .tel {
+    color: #fff;
+    opacity: 0.6;
+}
+.address-list {
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+.web {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    margin-left: 215px;
+}
+span {
+    color: #fff;
 }
