@@ -38,10 +38,12 @@ ul{list-style: none;}
     color: var(--sending);
     font-weight: 500;
     line-height: 1.1;
+    text-decoration: none;
 }
 .portfolio, .kontact-in-header {color: var(--main-text-color);
     font-weight: 500;
     line-height: 1.1;
+    text-decoration: none;
 }
 .span1 {color: var(--black);}
 .headcontacts {
@@ -51,9 +53,11 @@ ul{list-style: none;}
 .headmail {
     color: var(--sending);
     margin-right: 50px;
+    text-decoration: none;
 }
 .headtel {
     color: var(--second-main);
+    text-decoration: none;
 }
 .decision {
     background-color: var(--back);
@@ -175,6 +179,7 @@ footer {
 .mail, .tel {
     color: var(--white);
     opacity: 0.6;
+    text-decoration: none;
 }
 .address-list {
     margin-top: 0;
@@ -219,7 +224,12 @@ span {
     padding: 6px 22px 6px 22px;
     margin-left: 8px;
 }
+.projects_sending {
+    color: var(--second-main);
+    text-decoration: none;
+}
 .projects-head {
+    color: var(--main-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
