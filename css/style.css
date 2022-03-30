@@ -195,6 +195,7 @@ footer {
 span {
     color: var(--white);
 }
+.hide {visibility: hidden;}
 .main-content {
     width: 1360px;
     text-align: center;
